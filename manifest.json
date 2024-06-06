@@ -6,10 +6,10 @@
   "permissions": [
     "tabs",
     "scripting",
-    "activeTab",
-    "<all_urls>"
+    "activeTab"
   ],
   "host_permissions": [
+    "*://*/*",
     "chrome-extension://*/"
   ],
   "action": {
