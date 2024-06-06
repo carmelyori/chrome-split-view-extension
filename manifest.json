@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Split View Extension",
+  "version": "1.0",
+  "description": "Splits the browser window and loads two websites side by side.",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
