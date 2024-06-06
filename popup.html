@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Split View</title>
+  <title>Popup</title>
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
+  <style>
+    body {
+      width: 300px;
+      height: 150px;
+      font-family: Arial, sans-serif;
+    }
+    input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 <body>
-
-  <form id="urlForm">
-    <input type="text" id="url1" placeholder="Enter first URL" required>
-    <input type="text" id="url2" placeholder="Enter second URL" required>
-    <button type="submit">Open Split View</button>
-  </form>
-
+  <input type="text" id="url1" placeholder="Enter first URL">
+  <input type="text" id="url2" placeholder="Enter second URL">
+  <button id="splitViewButton">Open Split View</button>
   <script src="popup.js"></script>
 </body>
 </html>
