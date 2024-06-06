@@ -9,6 +9,11 @@
   "permissions": [
     "tabs",
     "scripting",
-    "activeTab"
+    "activeTab",
+    "http://*/",
+    "https://*/"
+  ],
+  "host_permissions": [
+    "chrome-extension://*/"
   ]
 }
