@@ -5,12 +5,7 @@
   "description": "Splits the browser window and loads two websites side by side.",
   "permissions": [
     "tabs",
-    "scripting",
     "activeTab"
-  ],
-  "host_permissions": [
-    "*://*/*",
-    "chrome-extension://*/"
   ],
   "content_scripts": [
     {
