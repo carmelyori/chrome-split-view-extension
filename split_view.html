@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Split View</title>
+
+  <style>
+    body {
+      display: flex;
+      height: 100vh;
+      margin: 0;
+    }
+    iframe {
+      width: 50%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <iframe id="iframe1"></iframe>
+  <iframe id="iframe2"></iframe>
+
+  <script>
+    document.getElementById('iframe1'). src = window.url1;
+    document.getElementById('iframe2').src = window.url2;
+  </script>
+
+</body>
+</html>
