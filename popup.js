@@ -11,11 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
           window.url2 = url2;
         },
         args: [url1, url2]
-      }, function(result) {
+      }, (result) => {
         if (chrome.runtime.lastError) {
           console.error("Script injection failed: " + chrome.runtime.lastError.message);
         }
       });
-    });
-  });
+     });
 });
